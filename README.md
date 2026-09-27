@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="docs/hero-banner.jpg" width="700" alt="G292 Fan Control Banner" />
+<img src="docs/banner.jpg" width="600" alt="G292 Fan Control Banner" />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-GIGABYTE%20G292--Z20-orange.svg)](https://www.gigabyte.com)
