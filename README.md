@@ -51,7 +51,7 @@ python3 scripts/set_g292_fan.py --host <BMC_IP> --user admin --password <PASSWOR
 python3 scripts/set_g292_fan.py --host <BMC_IP> --user admin --password <PASSWORD> --mode default
 ```
 
-详细逆向数据与实测日志见 [docs/g292-z20-fancontrol.md](docs/g292-z20-fancontrol.md)。
+详细逆向数据与实测日志见 [docs/g292-z20-fancontrol.md | [English Documentation](docs/g292-z20-fancontrol.en.md)](docs/g292-z20-fancontrol.md | [English Documentation](docs/g292-z20-fancontrol.en.md))。
 
 ---
 
