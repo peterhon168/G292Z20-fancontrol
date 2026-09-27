@@ -1,4 +1,4 @@
-# 技嘉 G292-Z20-00 (BMC 192.168.0.120) 风扇调速实录
+# 技嘉 G292-Z20-00 (BMC <BMC_IP>) 风扇调速实录
 
 > 实测日期 2026-09-20。主机上电、4×被动散热 GPU 在 Slot4-7 待机、进风 28°C。
 > **本机风扇与 MZ32-AR0 完全不同**（硬件下限 **3750 RPM** vs 1200 RPM），不要照搬 `t10-gpu-fancontrol.md` 的占空比表。
@@ -25,7 +25,7 @@
 ## 3. API 速查（Gigabyte MegaRAC SP-X Web API）
 ```bash
 # 登录（必须 form-urlencoded；JSON 会 403）
-curl -sk -c /tmp/bmc.jar -X POST https://192.168.0.120/api/session \
+curl -sk -c /tmp/bmc.jar -X POST https://<BMC_IP>/api/session \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'X-Requested-With: XMLHttpRequest' \
   -d 'username=admin&password=<PW>'

@@ -127,7 +127,7 @@ class G292BMCClient:
 
 def main():
     parser = argparse.ArgumentParser(description="Tune G292 Fan Speeds via BMC API")
-    parser.add_argument("--host", default="192.168.0.120", help="BMC IP Address")
+    parser.add_argument("--host", default="<BMC_IP>", help="BMC IP Address")
     parser.add_argument("--user", default="admin", help="BMC Username")
     parser.add_argument("--password", required=True, help="BMC Password")
     parser.add_argument("--mode", choices=["status", "quiet_max", "default"], default="status")
